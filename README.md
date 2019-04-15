@@ -1,7 +1,5 @@
 # End to end remote control lantency mesurement
 
-I don't care what component x or y nor how firmware z may or may not affect the latency. 
-
 This tool allows you to mesure what the reaction time is from stick movement to motor esc command change.
 
 This then allows you to change any component, firmware or settings and mesure the impact of that change. For example:
@@ -10,7 +8,7 @@ This then allows you to change any component, firmware or settings and mesure th
 - SBUS vs FPort
 - Taranis vs Horus vs X-Lite
 - Internal Taranis Module vs external XJT
-- BetaflightRC filtering options
+- RC filtering options
 
 
 ## Results
