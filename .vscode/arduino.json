@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:leonardo",
+    "sketch": "e2e_latency_bench.ino"
+}
