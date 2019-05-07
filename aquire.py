@@ -99,7 +99,8 @@ def mesure_dshot_latency_after_trigger():
     return None
 
 
-with open(output_file_fullpath, "a") as f:
+FILE_BUFFERING_LINE = 1
+with open(output_file_fullpath, "a+t", buffering=FILE_BUFFERING_LINE) as f:
     f.write("================\n")
     for i in range(500):
         try:
